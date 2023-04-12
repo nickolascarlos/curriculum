@@ -16,6 +16,7 @@ import Languages from './curriculum/Languages';
 import Interests from './curriculum/Interests';
 import picture from './picture';
 import AboutMe from './curriculum/AboutMe';
+import SocialMedia from './curriculum/SocialMedia';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
             <VerticalDivisor/>
 
             <BodyColumn flex={1}>
+              <SocialMedia/>
               <Languages/>
               <Interests/>
            </BodyColumn>
