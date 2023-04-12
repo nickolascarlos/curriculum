@@ -1,0 +1,133 @@
+@import url('./colors.css');
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vertical-divisor {
+    border-left: 1px solid;
+    border-left-color: var(--divisor-color);
+    margin: 10px 5px;
+}
+
+.icon-attribute {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-attribute .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-attribute .text {
+    margin-left: 5px;
+}
+
+.attribute-with-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+.attribute-with-time .attribute-head {
+    display: flex;
+    flex-direction: column;
+}
+
+.attribute-with-time .attribute-head .attribute-title {
+    font-weight: 700;
+}
+
+.attribute-with-time .attribute-head .attribute-subtitle {
+    font-weight: 400;
+    font-size: 11pt;
+    color: rgb(134, 134, 134);
+}
+
+.attribute-with-time .attribute-time {
+    display: flex;
+    align-items: center;
+}
+
+.skill-bar {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+}
+
+.skill-bar .skill-bar-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skill-bar .skill-bar-icon {
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.skill-bar .skill-name {
+    font-size: 12pt;
+    font-weight: 400;
+    margin-bottom: -5px;
+    padding: 10px 0;
+}
+
+.progress-bar {
+    display: flex;
+    justify-content: start;
+    background-color: rgb(223, 223, 223);
+    height: 6px;
+}
+
+.progress-bar .progress {
+    background-color: var(--primary-color);
+}
+
+.attributes-heap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bullet-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bullet-list li {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px;
+    font-size: 10pt;
+    font-weight: 400;
+}
+
+
+.bullet-list li::before {
+    content: "■";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: var(--primary-color); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    /* margin-left: -1em; Also needed for space (tweak if needed) */
+    margin-right: 3px;
+}

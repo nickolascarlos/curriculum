@@ -1,0 +1,47 @@
+.c-header {
+    display: flex;
+    justify-content: start;
+    align-items:start;
+    width: 100%;
+    height: 200px;
+    background-color: var(--primary-color);
+}
+
+.c-header-photo {
+    height: 100%;
+    margin-right: 50px;
+}
+
+.c-header-photo img {
+    height: 100%;
+}
+
+.c-header-name {
+    font-size: 30pt;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.c-header-title {
+    font-size: 15pt;
+    font-weight: 400;
+    color: #979ba2;
+    margin-top: -5px;
+}
+
+.c-header-info {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.c-header-info-attributes {
+    display: flex;
+    flex-direction: row;
+}
+
+.c-header-info-attributes > * {
+    margin-right: 30px;
+}

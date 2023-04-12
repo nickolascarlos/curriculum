@@ -1,0 +1,27 @@
+.c-body {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+}
+
+.c-body-column {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.c-section {
+    border-bottom: var(--divisor-color) 1px solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.c-section .title {
+    color: rgba(48,56,70,255);
+    font-size: 18pt;
+}
+
+.c-section .content {
+    margin-top: 10px;
+}
