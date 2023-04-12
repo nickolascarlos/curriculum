@@ -15,6 +15,7 @@ import Events from './curriculum/Events';
 import Languages from './curriculum/Languages';
 import Interests from './curriculum/Interests';
 import picture from './picture';
+import AboutMe from './curriculum/AboutMe';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
 
           <Body>
             <BodyColumn flex={2}>
+              <AboutMe/>
               <Education/>
               <ProgrammingLanguages/>
               <OtherTools/>
