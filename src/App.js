@@ -4,21 +4,17 @@ import Email from './components/Email';
 import Header from './components/Header';
 import Location from './components/Location';
 import Phone from './components/Phone';
-import Section from './components/Section';
-import picture from './picture';
 import Body from './components/Body';
 import BodyColumn from './components/BodyColumn';
 import VerticalDivisor from './components/VerticalDivisor';
 import Education from './curriculum/Education';
 import ProgrammingLanguages from './curriculum/ProgrammingLanguages';
-import BulletList from './components/BulletList';
-import SkillBar from './components/SkillBar';
-import PythonIcon from './icons/PythonIcon';
 import OtherTools from './curriculum/OtherTools';
 import Courses from './curriculum/Courses';
 import Events from './curriculum/Events';
 import Languages from './curriculum/Languages';
 import Interests from './curriculum/Interests';
+import picture from './picture';
 
 function App() {
   return (
