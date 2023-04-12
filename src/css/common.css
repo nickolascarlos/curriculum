@@ -42,12 +42,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: start;
     margin: 15px 0px;
 }
 
 .attribute-with-time .attribute-head {
     display: flex;
     flex-direction: column;
+    max-width: 80%;
 }
 
 .attribute-with-time .attribute-head .attribute-title {

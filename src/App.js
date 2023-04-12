@@ -35,7 +35,7 @@ function App() {
           </Header>
 
           <Body>
-            <BodyColumn flex={3}>
+            <BodyColumn flex={2}>
               <Education/>
               <ProgrammingLanguages/>
               <OtherTools/>

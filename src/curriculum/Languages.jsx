@@ -7,11 +7,6 @@ export default function Languages(props) {
             <SkillBar
                 name="Português"
                 level="100%"
-                icon={<i class="devicon-adonisjs-original"></i>}
-                iconStyle={{
-                width: '20px',
-                height: '20px'
-                }}
             />
 
             <SkillBar
