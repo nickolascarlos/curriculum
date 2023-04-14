@@ -1,6 +1,6 @@
 .c-header {
     display: grid;
-    grid-template-columns: 25%;
+    grid-template-columns: fit-content(25%) 25% 25% 25%;
     grid-template-rows: 5% 20% 25% 25% 20% 5%;
     column-gap: 20px;
     width: 100%;
@@ -26,6 +26,10 @@
     font-size: 30pt;
     font-weight: bold;
     color: whitesmoke;
+}
+
+.blinker {
+    animation: Blink 1s ease-in-out infinite;
 }
 
 .c-header-title {
@@ -65,6 +69,7 @@
         grid-template-rows: 5% 10% 5% 50% 30% 0%;
         align-items: center;
         height: 300px;
+        background: linear-gradient(135deg,#414d63, #303846);
     }
 
     .c-header-info-attributes {
@@ -86,6 +91,7 @@
         grid-row: 2 / span 1;
         font-size: 16pt;
         text-align: center;
+        /* margin-left: 1em; */
     }
 
     .c-header-title {

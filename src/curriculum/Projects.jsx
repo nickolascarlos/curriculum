@@ -3,7 +3,7 @@ import Section from "../components/Section";
 
 export default function Projects(props) {
     return (
-        <Section title="Projetos">
+        <Section title="Alguns Projetos">
             <AttributeWithContent
                 title="curriculum"
                 href="https://www.github.com/nickolascarlos/curriculum"
@@ -56,31 +56,6 @@ export default function Projects(props) {
                 }
             />
 
-            <AttributeWithContent
-                title="class-validator-errors-flattener"
-                href="https://www.github.com/nickolascarlos/class-validator-errors-flattener"
-                content={
-                    <>
-                        <div>                            
-                        <img src="https://img.shields.io/github/license/nickolascarlos/class-validator-errors-flattener?logo=github&style=flat-square" alt=""
-                            style={{
-                                height: '18px',
-                                marginRight: '5px'
-                            }}
-                        />
-                        <img src="https://shields.io/badge/-TypeScript-blue?logo=typescript&style=flat-square&logoColor=white" alt=""
-                            style={{
-                                height: '18px',
-                                marginRight: '5px'
-                            }}
-                        />
-                        </div>
-                        <article style={{fontSize: 'small'}}>
-                            Biblioteca para desenvolvedores que utilizam a biblioteca 'class-validator' e desejam fornecer uma maneira clara e legível de exibir erros de validação ao usuário final. Escrita em Typescript e disponibilizada como um pacote NPM.
-                        </article>
-                    </>
-                }
-            />
 
             <AttributeWithContent
                 title="hmac"
@@ -109,6 +84,32 @@ export default function Projects(props) {
             />
 
             <AttributeWithContent
+                title="class-validator-errors-flattener"
+                href="https://www.github.com/nickolascarlos/class-validator-errors-flattener"
+                content={
+                    <>
+                        <div>                            
+                            <img src="https://img.shields.io/github/license/nickolascarlos/class-validator-errors-flattener?logo=github&style=flat-square" alt=""
+                                style={{
+                                    height: '18px',
+                                    marginRight: '5px'
+                                }}
+                            />
+                            <img src="https://shields.io/badge/-TypeScript-blue?logo=typescript&style=flat-square&logoColor=white" alt=""
+                                style={{
+                                    height: '18px',
+                                    marginRight: '5px'
+                                }}
+                            />
+                            </div>
+                        <article style={{fontSize: 'small'}}>
+                            Biblioteca para desenvolvedores que utilizam a biblioteca 'class-validator' e desejam fornecer uma maneira clara e legível de exibir erros de validação ao usuário final. Escrita em Typescript e disponibilizada como um pacote NPM.
+                        </article>
+                    </>
+                }
+            />
+
+            <AttributeWithContent
                 title="sadchat"
                 href="https://www.github.com/nickolascarlos/sadchat"
                 content={
@@ -130,6 +131,93 @@ export default function Projects(props) {
                     <article style={{fontSize: 'small'}}>
                     Escrito em Python, SadChat é um aplicativo de chat baseado em terminal que visa a segurança de seus usuários. Ele conecta diretamente dois usuários e, a cada mensagem trocada, verifica a integridade e autenticidade usando o algoritmo HMAC.
                     </article>
+                    </>
+                }
+            />
+
+            <AttributeWithContent
+                title="lalau"
+                href="https://www.github.com/nickolascarlos/lalau"
+                content={
+                    <>
+                        <div>                            
+                            <img src="https://img.shields.io/github/license/nickolascarlos/lalau?logo=github&style=flat-square" alt=""
+                                style={{
+                                    height: '18px',
+                                    marginRight: '5px'
+                                }}
+                            />
+                            <img src="https://shields.io/badge/-JavaScript-f5ff3d?logo=javascript&style=flat-square&logoColor=black" alt=""
+                                style={{
+                                    height: '18px',
+                                    marginRight: '5px'
+                                }}
+                            />
+                        </div>
+                        <article style={{fontSize: 'small'}}>
+                            Um bot para WhatsApp, personificado em um macaquinho 🐵 muito simpático, que envia as músicas solicitadas. Feito para ouvir músicas sem gastar créditos do celular, já que algumas operadores oferecem WhatsApp grátis. Foi implementado em JavaScript, com o auxílio da biblioteca Venom.js. 
+                        </article>
+                    </>
+                }
+            />
+
+            <AttributeWithContent
+                title="youtube-auto-uploader"
+                href="https://www.github.com/nickolascarlos/youtube-auto-uploader"
+                content={
+                    <>
+                        <div>                            
+                            <img src="https://img.shields.io/github/license/nickolascarlos/lalau?logo=github&style=flat-square" alt=""
+                                style={{
+                                    height: '18px',
+                                    marginRight: '5px'
+                                }}
+                            />
+                            
+                            <img src="https://shields.io/badge/-Python-yellow?logo=python&style=flat-square" alt=""
+                                style={{
+                                    height: '18px',
+                                    marginRight: '5px'
+                                }}
+                            />
+
+                        <img src="https://shields.io/badge/-Selenium-green?logo=selenium&style=flat-square&logoColor=white" alt=""
+                                style={{
+                                    height: '18px',
+                                    marginRight: '5px'
+                                }}
+                            />
+                        </div>
+                        <article style={{fontSize: 'small'}}>
+                            Um script baseado em linha de comando para automatizar o upload de vídeos para o YouTube sem a necessidade de utilizar sua API. Escrito em Python, utilizando o Selenium.
+                        </article>
+                    </>
+                }
+            />
+
+            <AttributeWithContent
+                title="auto-video-gpt"
+                href="https://www.github.com/nickolascarlos/auto-video-gpt"
+                content={
+                    <>
+                        <div>                            
+                            <img src="https://img.shields.io/github/license/nickolascarlos/auto-video-gpt?logo=github&style=flat-square" alt=""
+                                style={{
+                                    height: '18px',
+                                    marginRight: '5px'
+                                }}
+                            />
+                            
+                            <img src="https://shields.io/badge/-Python-yellow?logo=python&style=flat-square" alt=""
+                                style={{
+                                    height: '18px',
+                                    marginRight: '5px'
+                                }}
+                            />
+                        </div>
+                        <article style={{fontSize: 'small'}}>
+                            Um criador de vídeos automatizado, escrito em Python, que utiliza a API Text Completition do OpenAI para a geração de conteúdo textual.
+                        </article>
                     </>
                 }
             />

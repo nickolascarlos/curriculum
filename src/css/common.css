@@ -171,3 +171,17 @@
     /* margin-left: -1em; Also needed for space (tweak if needed) */
     margin-right: 3px;
 }
+
+@keyframes Blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

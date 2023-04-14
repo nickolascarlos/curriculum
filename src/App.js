@@ -26,7 +26,7 @@ function App() {
         <Header 
             photo={picture} 
             name={"Nickolas Carlos"}
-            title={"Desenvolvedor Back-end"}
+            title={"Desenvolvedor de Software"}
           >
             <Email>nickolascarlos@gmail.com</Email>
             <Phone>(64) 99300-3667</Phone>
