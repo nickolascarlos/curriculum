@@ -49,7 +49,7 @@
 .attribute-with-time .attribute-head {
     display: flex;
     flex-direction: column;
-    max-width: 80%;
+    max-width: 70%;
 }
 
 .attribute-with-time .attribute-head .attribute-title {
@@ -65,6 +65,12 @@
 .attribute-with-time .attribute-time {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.attribute-with-time .attribute-time text {
+    white-space: nowrap;
+    margin-left: 15px;
 }
 
 /* */
