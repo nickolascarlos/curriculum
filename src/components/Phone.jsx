@@ -3,7 +3,7 @@ import IconAttribute from "./IconAttribute";
 
 export default function Phone(props) {
     return (
-        <IconAttribute icon={<PhoneFullIcon/>}
+      <IconAttribute icon={<PhoneFullIcon/>}
         iconStyle={{
           width: '12px'
         }}
@@ -15,5 +15,5 @@ export default function Phone(props) {
       >
         {props.children}
       </IconAttribute>
-    )
+  )
 }

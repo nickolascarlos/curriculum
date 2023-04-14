@@ -25,3 +25,17 @@
 .c-section .content {
     margin-top: 10px;
 }
+
+@media (max-width: 800px) {
+    .c-body {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        width: 100%;
+    }
+
+    .c-body-column {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}

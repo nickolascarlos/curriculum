@@ -13,7 +13,7 @@ export default function Location(props) {
             fontSize: '9pt'
             }}
         >
-        {props.children}
-      </IconAttribute>
+            {props.children}
+        </IconAttribute>
     )
 }

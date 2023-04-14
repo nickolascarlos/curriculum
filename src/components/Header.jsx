@@ -6,15 +6,11 @@ export default function Header(props) {
     return (
         <div className="c-header">
             <Photo src={props.photo}/>
-            <div className="c-header-info">
-                <span>
-                    <Name>{props.name}</Name>
-                    <Title>{props.title}</Title>
-                </span>
+                <Name>{props.name}</Name>
+                <Title>{props.title}</Title>
                 <div className="c-header-info-attributes">
                     {props.children}
                 </div>
-            </div>
         </div>
     )
 }
