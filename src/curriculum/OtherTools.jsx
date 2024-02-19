@@ -8,25 +8,41 @@ export default function OtherTools(props) {
     return (
         <Section title="Outras Ferramentas">
             <Heap perRow={2.1}>
-                <SkillBar
+                {/* <SkillBar
                     name="SQL"
                     level="80%"
                     icon={<i class="devicon-postgresql-plain colored" style={iconStyle}></i>}
-                />
-                <SkillBar
-                    name="Node.js"
-                    level="80%"
-                    icon={<i class="devicon-nodejs-plain colored" style={iconStyle}></i>}
-                />
+                /> */}
                 <SkillBar
                     name="Nest.JS"
-                    level="20%"
+                    level="60%"
                     icon={<i class="devicon-nestjs-plain colored" style={iconStyle}></i>}
+                />
+                <SkillBar
+                    name="Django"
+                    level="60%"
+                    icon={<i class="devicon-django-plain colored" style={iconStyle}></i>}
+                />
+
+                <SkillBar
+                    name=".NET"
+                    level="50%"
+                    icon={<i class="devicon-dot-net-plain colored" style={iconStyle}></i>}
+                />      
+                <SkillBar
+                    name="PostgreSQL"
+                    level="80%"
+                    icon={<i class="devicon-postgresql-plain colored" style={iconStyle}></i>}
                 />
                 <SkillBar
                     name="Express"
                     level="40%"
                     icon={<i class="devicon-express-original" style={iconStyle}></i>}
+                />
+                <SkillBar
+                    name="Docker"
+                    level="20%"
+                    icon={<i class="devicon-docker-plain colored" style={iconStyle}></i>}
                 />
                 <SkillBar
                     name="Git"
@@ -52,13 +68,9 @@ export default function OtherTools(props) {
                     icon={<i class="devicon-css3-plain colored" style={iconStyle}></i>}
                 />
 
-                <SkillBar
-                    name="PostgreSQL"
-                    level="80%"
-                    icon={<i class="devicon-postgresql-plain colored" style={iconStyle}></i>}
-                />
 
-                <SkillBar
+
+                {/* <SkillBar
                     name="Electron"
                     level="60%"
                     icon={<i class="devicon-electron-original colored" style={iconStyle}></i>}
@@ -110,7 +122,7 @@ export default function OtherTools(props) {
                     name="Visual Studio"
                     level="20%"
                     icon={<i class="devicon-visualstudio-plain colored" style={iconStyle}></i>}
-                />
+                /> */}
           
             </Heap>
         </Section>

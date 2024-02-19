@@ -29,28 +29,23 @@ function App() {
             title={"Desenvolvedor de Software"}
           >
             <Email>nickolascarlos@gmail.com</Email>
-            <Phone>(64) 99300-3667</Phone>
+            <Phone>(64) 99274-3215</Phone>
             <Location>Goiânia - Goiás</Location>
           </Header>
 
           <Body>
             <BodyColumn flex={2}>
+              <SocialMedia/>
               <AboutMe/>
               <Education/>
               <ProgrammingLanguages/>
               <OtherTools/>
-              <Courses/>
-              <Events/>
-            </BodyColumn>
-
-            <VerticalDivisor/>
-
-            <BodyColumn flex={1}>
-              <SocialMedia/>
               <Languages/>
+              {/* <Courses/>
+              <Events/> */}
               <Projects/>
               <Interests/>
-           </BodyColumn>
+            </BodyColumn>
           </Body>
       </Curriculum>
     </div>

@@ -16,40 +16,40 @@ export default function ProgrammingLanguages(props) {
 
             <SkillBar
                     name="Python"
-                    level="80%"
+                    level="100%"
                     icon={<i class="devicon-python-plain colored" style={iconStyle}></i>}
                 />
 
             <SkillBar
-                    name="C"
+                    name="C#"
                     level="80%"
+                    icon={<i class="devicon-csharp-plain colored" style={iconStyle}></i>}
+                />
+
+            <SkillBar
+                    name="Typescript"
+                    level="80%"
+                    icon={<i class="devicon-typescript-plain colored" style={iconStyle}></i>}
+                />
+
+            <SkillBar
+                    name="C"
+                    level="60%"
                     icon={<i class="devicon-c-plain colored" style={iconStyle}></i>}
 
                 />
 
             <SkillBar
-                    name="Typescript"
-                    level="60%"
-                    icon={<i class="devicon-typescript-plain colored" style={iconStyle}></i>}
-                />
-
-            <SkillBar
-                    name="C#"
-                    level="20%"
-                    icon={<i class="devicon-csharp-plain colored" style={iconStyle}></i>}
-                />
-
-            <SkillBar
                     name="Kotlin"
-                    level="20%"
+                    level="30%"
                     icon={<i class="devicon-kotlin-plain colored" style={iconStyle}></i>}
                 />
 
-            <SkillBar
+            {/* <SkillBar
                     name="Rust"
                     level="20%"
                     icon={<i class="devicon-rust-plain colored" style={iconStyle}></i>}
-                />
+                /> */}
             </Heap>
         </Section>
     )

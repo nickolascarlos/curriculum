@@ -1,9 +1,12 @@
 import AttributeWithContent from "../components/AttributeWithContent";
 import Section from "../components/Section";
+import Heap from "../components/Heap";
 
 export default function Projects(props) {
     return (
         <Section title="Alguns Projetos">
+
+            <Heap perRow={2.1}>
             <AttributeWithContent
                 title="curriculum"
                 href="https://www.github.com/nickolascarlos/curriculum"
@@ -55,7 +58,6 @@ export default function Projects(props) {
                     </>
                 }
             />
-
 
             <AttributeWithContent
                 title="hmac"
@@ -135,73 +137,13 @@ export default function Projects(props) {
                 }
             />
 
-            <AttributeWithContent
-                title="lalau"
-                href="https://www.github.com/nickolascarlos/lalau"
-                content={
-                    <>
-                        <div>                            
-                            <img src="https://img.shields.io/github/license/nickolascarlos/lalau?logo=github&style=flat-square" alt=""
-                                style={{
-                                    height: '18px',
-                                    marginRight: '5px'
-                                }}
-                            />
-                            <img src="https://shields.io/badge/-JavaScript-f5ff3d?logo=javascript&style=flat-square&logoColor=black" alt=""
-                                style={{
-                                    height: '18px',
-                                    marginRight: '5px'
-                                }}
-                            />
-                        </div>
-                        <article style={{fontSize: 'small'}}>
-                            Um bot para WhatsApp, personificado em um macaquinho 🐵 muito simpático, que envia as músicas solicitadas. Feito para ouvir músicas sem gastar créditos do celular, já que algumas operadores oferecem WhatsApp grátis. Foi implementado em JavaScript, com o auxílio da biblioteca Venom.js. 
-                        </article>
-                    </>
-                }
-            />
-
-            <AttributeWithContent
-                title="youtube-auto-uploader"
-                href="https://www.github.com/nickolascarlos/youtube-auto-uploader"
-                content={
-                    <>
-                        <div>                            
-                            <img src="https://img.shields.io/github/license/nickolascarlos/lalau?logo=github&style=flat-square" alt=""
-                                style={{
-                                    height: '18px',
-                                    marginRight: '5px'
-                                }}
-                            />
-                            
-                            <img src="https://shields.io/badge/-Python-yellow?logo=python&style=flat-square" alt=""
-                                style={{
-                                    height: '18px',
-                                    marginRight: '5px'
-                                }}
-                            />
-
-                        <img src="https://shields.io/badge/-Selenium-green?logo=selenium&style=flat-square&logoColor=white" alt=""
-                                style={{
-                                    height: '18px',
-                                    marginRight: '5px'
-                                }}
-                            />
-                        </div>
-                        <article style={{fontSize: 'small'}}>
-                            Um script baseado em linha de comando para automatizar o upload de vídeos para o YouTube sem a necessidade de utilizar sua API. Escrito em Python, utilizando o Selenium.
-                        </article>
-                    </>
-                }
-            />
-
-            <AttributeWithContent
+<AttributeWithContent
                 title="auto-video-gpt"
                 href="https://www.github.com/nickolascarlos/auto-video-gpt"
                 content={
                     <>
                         <div>                            
-                            <img src="https://img.shields.io/github/license/nickolascarlos/auto-video-gpt?logo=github&style=flat-square" alt=""
+                            <img src="https://img.shields.io/github/license/nickolascarlos/sadchat?logo=github&style=flat-square" alt=""
                                 style={{
                                     height: '18px',
                                     marginRight: '5px'
@@ -221,6 +163,7 @@ export default function Projects(props) {
                     </>
                 }
             />
+            </Heap>
         </Section>
     )
 }
