@@ -4,16 +4,16 @@ import Heap from "../components/Heap";
 
 export default function Interests(props) {
     return (
-        <Section title="Interesses">
+        <Section title="Interests">
             <Heap perRow={3}>
                 {[
-                     'Automação de Processos',
-                     'Criptografia',
-                     'Blockchain',
-                     'Sistemas Distribuídos',
-                     'Microcontroladores',
-                     'Processamento de Imagens',
-                     'Raspagem de Dados',
+                    'Process Automation',
+                    'Cryptography',
+                    'Blockchain',
+                    'Distributed Systems',
+                    'Microcontrollers',
+                    'Image Processing',
+                    'Data Scraping',
                 ].map(item => (
                     <BulletItem text={item}/>
                 ))}

@@ -23,14 +23,14 @@ function App() {
   return (
     <div className="App">
       <Curriculum>
-        <Header 
+      <Header 
             photo={picture} 
             name={"Nickolas Carlos"}
-            title={"Desenvolvedor de Software"}
+            title={"Software Developer"}
           >
             <Email>nickolascarlos@gmail.com</Email>
-            <Phone>(64) 99274-3215</Phone>
-            <Location>Goiânia - Goiás</Location>
+            <Phone>+55 (64) 99274-3215</Phone>
+            <Location>Goiânia - Goiás - Brazil</Location>
           </Header>
 
           <Body>

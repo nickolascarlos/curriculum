@@ -6,7 +6,7 @@ const iconStyle = {fontSize: '18pt'}
 
 export default function ProgrammingLanguages(props) {
     return (
-        <Section title="Linguagens de Programação">
+        <Section title="Programming Languages">
             <Heap perRow={2.1}>
             <SkillBar
                     name="Javascript"

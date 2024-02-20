@@ -6,7 +6,7 @@ const iconStyle = {fontSize: '18pt'}
 
 export default function OtherTools(props) {
     return (
-        <Section title="Outras Ferramentas">
+        <Section title="Other Tools">
             <Heap perRow={2.1}>
                 {/* <SkillBar
                     name="SQL"

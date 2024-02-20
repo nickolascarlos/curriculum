@@ -2,22 +2,20 @@ import Section from "../components/Section";
 
 export default function AboutMe(props) {
     return (
-        <Section title="Um pouco sobre mim 🤝">
-            <article style={{
-                fontSize: '11pt',
-                textAlign: 'justify',
-                color: '#505050'
-            }}>
-            <p>Sou estudante de Ciência da Computação na Universidade Federal de Goiás e estou em busca de oportunidades para
-aprimorar minhas habilidades como desenvolvedor de software e crescer profissional e pessoalmente.</p>
+        <Section title="A bit about me 🤝">
+    <article style={{
+        fontSize: '11pt',
+        textAlign: 'justify',
+        color: '#505050'
+    }}>
+        <p>I am a Computer Science student at the Federal University of Goiás and I am seeking opportunities to enhance my skills as a software developer and grow both professionally and personally.</p>
 
-            <p>Possuo experiência tanto no back-end quanto no front-end, destacando-me na criação de APIs REST com Python, Javascript e C#, usando frameworks como Django, Nest.js e ASP .NET.</p>
-            
-            <p>Além disso, tenho experiência com modelagem de bancos de dados relacionais e experiência ocasional com bancos não relacionais, além de experiência com testagem de software e padrões arquiteturais.</p>
-            
-            <p>No front-end, domino HTML, CSS, JavaScript, React e Electron, com familiaridade em Django Template Language. Embora meu foco seja o desenvolvimento back-end, consigo ser produtivo em ambas as áreas.</p>
-
-            </article>
-        </Section>
+        <p>I have experience in both back-end and front-end, excelling in creating REST APIs with Python, JavaScript, and C#, using frameworks such as Django, Nest.js, and ASP.NET.</p>
+        
+        <p>Additionally, I have experience with relational database modeling and occasional experience with non-relational databases, as well as experience with software testing and architectural patterns.</p>
+        
+        <p>In front-end, I am proficient in HTML, CSS, JavaScript, React, and Electron, with familiarity in Django Template Language. Although my focus is on back-end development, I can be productive in both areas.</p>
+    </article>
+</Section>
     )
 }

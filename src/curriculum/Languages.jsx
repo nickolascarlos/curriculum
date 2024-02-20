@@ -8,10 +8,10 @@ import Heap from "../components/Heap";
 
 export default function Languages(props) {
     return (
-        <Section title="Idiomas">
+        <Section title="Languages">
             <Heap perRow={2.1}>
                 <SkillBar
-                    name="Português"
+                    name="Portuguese"
                     level="100%"
                     icon={<BrazilFlag/>}
                     iconStyle={{
@@ -20,7 +20,7 @@ export default function Languages(props) {
                 />
 
                 <SkillBar
-                    name="Inglês"
+                    name="English"
                     level="80%"
                     icon={<USFlag/>}
                     iconStyle={{
@@ -30,8 +30,8 @@ export default function Languages(props) {
             </Heap>
             <Heap perRow={2.1}>
                 <SkillBar
-                    name="Italiano"
-                    level="35%"
+                    name="Italian"
+                    level="20%"
                     icon={<ItalyFlag/>}
                     iconStyle={{
                         width: '30px'
@@ -39,7 +39,7 @@ export default function Languages(props) {
                 />
 
                 <SkillBar
-                    name="Espanhol"
+                    name="Spanish"
                     level="15%"
                     icon={<SpainFlag/>}
                     iconStyle={{

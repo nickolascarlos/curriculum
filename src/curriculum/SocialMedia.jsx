@@ -1,5 +1,3 @@
-import Section from "../components/Section";
-
 export default function SocialMedia(props) {
     return (
         <div style={{display: "flex", flexDirection: "row", justifyContent: "center", paddingBottom: "5px"}}>
