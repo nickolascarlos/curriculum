@@ -14,10 +14,11 @@ import Courses from './curriculum/Courses';
 import Events from './curriculum/Events';
 import Languages from './curriculum/Languages';
 import Interests from './curriculum/Interests';
-import picture from './picture';
+import picture from './media/picture';
 import AboutMe from './curriculum/AboutMe';
 import SocialMedia from './curriculum/SocialMedia';
 import Projects from './curriculum/Projects';
+import Jobs from './curriculum/Jobs';
 
 function App() {
   return (
@@ -27,25 +28,24 @@ function App() {
             photo={picture} 
             name={"Nickolas Carlos"}
             title={"Desenvolvedor de Software"}
-          >
-            <Email>nickolascarlos@gmail.com</Email>
-            <Phone>(64) 99274-3215</Phone>
-            <Location>Goiânia - Goiás</Location>
-          </Header>
-
+          />
+          
           <Body>
             <BodyColumn flex={2}>
               <SocialMedia/>
               <AboutMe/>
+              <Jobs/>
               <Education/>
               <ProgrammingLanguages/>
               <OtherTools/>
-              <Languages/>
-              {/* <Courses/>
-              <Events/> */}
-              <Projects/>
-              <Interests/>
+              {/* <Interests/> */}
             </BodyColumn>
+
+            {/* <VerticalDivisor/>
+
+            <BodyColumn flex={1}>
+              <Languages/>
+           </BodyColumn> */}
           </Body>
       </Curriculum>
     </div>

@@ -8,18 +8,22 @@
 .c-body-column {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 0 30px 30px 30px;
 }
 
 .c-section {
     border-bottom: var(--divisor-color) 1px solid;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.c-section:last-of-type {
+    border-bottom: none !important;
 }
 
 .c-section .title {
     color: rgba(48,56,70,255);
-    font-size: 18pt;
+    font-size: 16pt;
 }
 
 .c-section .content {

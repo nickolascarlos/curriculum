@@ -1,15 +1,17 @@
+import Badge from "../components/Badge";
 import Section from "../components/Section";
+import linkedin_logo from "../media/linkedin_logo";
 
 export default function SocialMedia(props) {
     return (
-        <div style={{display: "flex", flexDirection: "row", justifyContent: "center", paddingBottom: "5px"}}>
-            <a href="https://www.github.com/nickolascarlos" target="blank" style={{marginRight: '7px'}}>
-                <img alt="GitHub profile link" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" style={{borderRadius: '5px', overflow: 'hidden'}}/>
-            </a>
+        <Section
+            style={{display: 'flex', justifyContent: 'center', padding: '10px'}}
+            contentStyle={{display: 'flex', columnGap: '10px'}}>
 
-            <a href="https://www.linkedin.com/in/nickolascarlos" target="blank">
-                <img alt="Linkedin profile link" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" style={{borderRadius: '5px', overflow: 'hidden'}}/>
-            </a>
-        </div>
+            <Badge text="GitHub" color="100000" logo="github" link="https://www.github.com/nickolascarlos"/>
+            <Badge text="LinkedIn" color="0077B5" logo={linkedin_logo} link="https://www.linkedin.com/in/nickolascarlos"/>
+            <Badge text="WhatsApp" color="25D366" logo="whatsapp" link="https://api.whatsapp.com/send?phone=5564992743215&text=Ol%C3%A1!%20Vi%20seu%20curr%C3%ADculo%20e%20gostaria%20de%20conversar"/>
+            
+        </Section>
     )
 }

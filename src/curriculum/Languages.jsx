@@ -9,7 +9,7 @@ import Heap from "../components/Heap";
 export default function Languages(props) {
     return (
         <Section title="Idiomas">
-            <Heap perRow={2.1}>
+            <Heap perRow={1}>
                 <SkillBar
                     name="Português"
                     level="100%"
@@ -27,8 +27,6 @@ export default function Languages(props) {
                         width: '30px'
                     }}
                 />
-            </Heap>
-            <Heap perRow={2.1}>
                 <SkillBar
                     name="Italiano"
                     level="35%"

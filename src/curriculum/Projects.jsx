@@ -6,7 +6,7 @@ export default function Projects(props) {
     return (
         <Section title="Alguns Projetos">
 
-            <Heap perRow={2.1}>
+            <Heap perRow={1}>
             <AttributeWithContent
                 title="curriculum"
                 href="https://www.github.com/nickolascarlos/curriculum"

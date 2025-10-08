@@ -1,0 +1,30 @@
+Criou conectores ERP completos (Superlógica, CasaSoft, Imobiliar) com sincronização bidirecional e autenticação OAuth.
+
+Automatizou importação de boletos e geração de remessas bancárias, garantindo conciliação automática entre plataformas.
+
+Desenvolveu módulo de configurações client-specific, reduzindo setup de novos clientes em ~70%.
+
+Implementou sistema de malotes com conferência em tempo real e tracking assíncrono de status.
+
+Refatorou consultas SQL críticas, diminuindo em ~60% o tempo de relatórios complexos.
+
+Construiu front-end Angular otimizado para relatórios, cadastros e importações, com lazy loading e state management eficiente.
+
+
+🧩 Analista de Desenvolvimento
+
+Scaza Tecnologia | Maio de 2025 – Atualmente
+
+Padronizou lógica de integrações ERP, criando framework com monitoramento e reprocessamento automático de falhas.
+
+Automatizou workflows de contas, boletos e malotes, reduzindo intervenção manual em ~40%.
+
+Criou dashboards de faturas, inadimplência e posição financeira, aumentando visibilidade e capacidade preditiva.
+
+Implantou webhooks para notificações contextuais e integração entre sistemas (+80% rastreabilidade).
+
+Refinou regras de negócio e algoritmos de controle de adimplência, elevando precisão financeira acima de 95%.
+
+Implementou políticas de governança de dados cross-module, reduzindo falhas de sincronização em ~50%.
+
+Liderou redesign de fluxos de integração e melhorias na experiência do cliente, atuando como interface técnica entre produto e desenvolvimento.

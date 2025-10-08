@@ -49,7 +49,7 @@
 .attribute-with-time .attribute-head {
     display: flex;
     flex-direction: column;
-    max-width: 70%;
+    max-width: 75%;
 }
 
 .attribute-with-time .attribute-head .attribute-title {
@@ -111,6 +111,96 @@
 
 /* */
 
+.attribute-with-image {
+    display: flex;
+    align-items: center;
+}
+
+.attribute-with-image > .attribute-image {
+    width: 70px;
+    border-radius: 5px;
+}
+
+.attribute-with-image > .attribute-content {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* */
+
+.timelined-attributes-with-image {
+    display: flex;
+    align-items: start;
+}
+
+.timelined-attributes-with-image > .attribute-image {
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.timelined-attributes-with-image > .attribute-content {
+    flex: 1;
+    margin-left: 45px;
+    position: relative;
+}
+
+.timelined-attributes-with-image > .attribute-content > .attribute-with-time > .attribute-head > .attribute-list-items {
+    color: var(--primary-color);
+    font-size: 10.5pt; 
+}
+
+.timelined-attributes-with-image > .attribute-content > .attribute-with-time > .attribute-head > .attribute-list-items > ul {
+    list-style-type: square;
+    color: #505050;
+}
+
+.timelined-attributes-with-image > .attribute-content > .attribute-with-time > .attribute-head > .attribute-list-items > ul > li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.timelined-attributes-with-image > .attribute-content > .attribute-with-time > .attribute-head > .attribute-list-items > ul > li::marker {
+    color: #000100;
+}
+
+.timelined-attributes-with-image > .attribute-content > .attribute-with-time {
+    position: relative;
+}
+
+.timelined-attributes-with-image > .attribute-content > .attribute-with-time:not(:last-child)::before {
+    content: "";
+    width: 7px;
+    background-color: rgb(236, 236, 236);
+    position: absolute;
+    height: calc(100% + 1px);
+    left: -22px;
+    top: 19px;
+}
+
+.timelined-attributes-with-image > .attribute-content > .attribute-with-time > .attribute-head > .attribute-title {
+    display: flex;
+    align-items: center;
+}
+
+.timelined-attributes-with-image > .attribute-content > .attribute-with-time > .attribute-head > .attribute-title::before {
+    content: "";
+    display: inline-block;
+    background-color: var(--primary-color);
+    border: 5px rgb(236, 236, 236) solid;
+    border-radius: 2px;
+    width: 7px;
+    height: 7px;
+    margin-left: -27px;
+    margin-right: 7px;
+    z-index: 10;
+}
+
+.timelined-attributes-with-image > .attribute-content > .attribute-with-time:not(:first-child) > .attribute-head > .attribute-title::before {
+    background-color: rgb(48 56 70 / 35%);
+}
+
+/* */
+
 .skill-bar {
     display: flex;
     flex-direction: column;
@@ -145,6 +235,7 @@
 
 .progress-bar .progress {
     background-color: var(--primary-color);
+    transition: width 1s ease;
 }
 
 .attributes-heap {
@@ -189,5 +280,42 @@
 
     100% {
         opacity: 0;
+    }
+}
+
+
+@keyframes SubtleRotation {
+    0% {
+        rotate: 0deg;
+    }
+
+    25% {
+        rotate: 4deg;
+    }
+
+    50% {
+        rotate: 0deg;
+    }
+
+    75% {
+        rotate: -4deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
+
+@keyframes SubtleFluctuation {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(0, -7px);
+    }
+
+    100% {
+        transform: translate(0, 0);
     }
 }

@@ -6,23 +6,12 @@ const iconStyle = {fontSize: '18pt'}
 
 export default function ProgrammingLanguages(props) {
     return (
-        <Section title="Linguagens de Programação">
+        <Section title="Linguagens de programação">
             <Heap perRow={2.1}>
-            <SkillBar
-                    name="Javascript"
-                    level="100%"
-                    icon={<i class="devicon-javascript-plain colored" style={iconStyle}></i>}
-                />
-
-            <SkillBar
-                    name="Python"
-                    level="100%"
-                    icon={<i class="devicon-python-plain colored" style={iconStyle}></i>}
-                />
-
+            
             <SkillBar
                     name="C#"
-                    level="80%"
+                    level="90%"
                     icon={<i class="devicon-csharp-plain colored" style={iconStyle}></i>}
                 />
 
@@ -33,16 +22,15 @@ export default function ProgrammingLanguages(props) {
                 />
 
             <SkillBar
-                    name="C"
-                    level="60%"
-                    icon={<i class="devicon-c-plain colored" style={iconStyle}></i>}
-
+                    name="Javascript"
+                    level="80%"
+                    icon={<i class="devicon-javascript-plain colored" style={iconStyle}></i>}
                 />
 
             <SkillBar
-                    name="Kotlin"
-                    level="30%"
-                    icon={<i class="devicon-kotlin-plain colored" style={iconStyle}></i>}
+                    name="Python"
+                    level="70%"
+                    icon={<i class="devicon-python-plain colored" style={iconStyle}></i>}
                 />
 
             {/* <SkillBar
