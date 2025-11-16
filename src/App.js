@@ -19,6 +19,7 @@ import AboutMe from './curriculum/AboutMe';
 import SocialMedia from './curriculum/SocialMedia';
 import Projects from './curriculum/Projects';
 import Jobs from './curriculum/Jobs';
+import Section from './components/Section';
 
 function App() {
   return (
@@ -34,11 +35,17 @@ function App() {
             <BodyColumn flex={2}>
               <SocialMedia/>
               <AboutMe/>
-              <Jobs/>
-              <Education/>
               <ProgrammingLanguages/>
               <OtherTools/>
+              <Jobs/>
+              <Education/>
+              <Languages/>
               {/* <Interests/> */}
+              <Section>
+                <span style={{color: '#bbb', textAlign: 'center', width: '100%', display: 'block'}}>
+                  Atualizado em 19 de outubro de 2025 — Código-fonte disponível em <a style={{color: '#bbb'}} href="https://www.github.com/nickolascarlos">github.com/nickolascarlos</a>
+                </span>
+              </Section>
             </BodyColumn>
 
             {/* <VerticalDivisor/>

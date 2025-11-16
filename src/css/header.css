@@ -32,7 +32,7 @@
 }
 
 .blinker {
-    animation: Blink 1s ease-in-out infinite;
+    /* animation: Blink 1s ease-in-out infinite; */
 }
 
 .c-header-title {

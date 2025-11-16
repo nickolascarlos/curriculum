@@ -10,11 +10,11 @@ export default function AboutMe(props) {
             }}>
             
             <p>
-                Desenvolvedor full-stack (.NET / Angular) com experiência em manutenção, evolução e integração de sistemas corporativos de médio e grande porte, da análise à implementação de soluções robustas.
+                Desenvolvedor full-stack (.NET/Angular) com experiência em manutenção, evolução e integração de sistemas corporativos de médio e grande porte, da análise à implementação de soluções.
             </p>
 
             <p>
-                Participação em projetos de integração entre sistemas via APIs REST e mensageria (RabbitMQ), implementação de estratégias de caching (Redis) para redução de latência, refatoração de componentes críticos e melhorias arquiteturais visando a confiabilidade, desempenho e manutenibilidade.
+                Participação em projetos de integração entre sistemas via APIs REST, webhooks e mensageria (RabbitMQ), implementação de estratégias de caching (Redis) para redução de latência, refatoração de componentes críticos e melhorias arquiteturais visando a confiabilidade, desempenho e manutenibilidade.
             </p>
 
             <p>

@@ -7,38 +7,35 @@ const iconStyle = {fontSize: '18pt'}
 export default function ProgrammingLanguages(props) {
     return (
         <Section title="Linguagens de programação">
-            <Heap perRow={2.1}>
-            
-            <SkillBar
+            <div style={{display: 'flex', flexDirection: 'row', gap: '32px'}}>
+                <SkillBar
+                    style={{flex: 1}}
                     name="C#"
                     level="90%"
                     icon={<i class="devicon-csharp-plain colored" style={iconStyle}></i>}
                 />
 
-            <SkillBar
+                <SkillBar
+                    style={{flex: 1}}
                     name="Typescript"
                     level="80%"
                     icon={<i class="devicon-typescript-plain colored" style={iconStyle}></i>}
                 />
 
-            <SkillBar
-                    name="Javascript"
-                    level="80%"
-                    icon={<i class="devicon-javascript-plain colored" style={iconStyle}></i>}
-                />
-
-            <SkillBar
+                <SkillBar
+                    style={{flex: 1}}
                     name="Python"
                     level="70%"
                     icon={<i class="devicon-python-plain colored" style={iconStyle}></i>}
                 />
 
-            {/* <SkillBar
-                    name="Rust"
-                    level="20%"
-                    icon={<i class="devicon-rust-plain colored" style={iconStyle}></i>}
-                /> */}
-            </Heap>
+                <SkillBar
+                    style={{flex: 1}}
+                    name="Javascript"
+                    level="80%"
+                    icon={<i class="devicon-javascript-plain colored" style={iconStyle}></i>}
+                />
+            </div>
         </Section>
     )
 }

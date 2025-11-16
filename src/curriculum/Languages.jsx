@@ -4,13 +4,13 @@ import SkillBar from "../components/SkillBar";
 import USFlag from "../icons/USFlag";
 import SpainFlag from "../icons/SpainFlag";
 import ItalyFlag from "../icons/ItalyFlag";
-import Heap from "../components/Heap";
 
 export default function Languages(props) {
     return (
         <Section title="Idiomas">
-            <Heap perRow={1}>
+            <div style={{display: 'flex', flexDirection: 'row', columnGap: '32px'}}>
                 <SkillBar
+                    style={{flex: 1}}
                     name="Português"
                     level="100%"
                     icon={<BrazilFlag/>}
@@ -20,6 +20,7 @@ export default function Languages(props) {
                 />
 
                 <SkillBar
+                    style={{flex: 1}}
                     name="Inglês"
                     level="80%"
                     icon={<USFlag/>}
@@ -28,6 +29,7 @@ export default function Languages(props) {
                     }}
                 />
                 <SkillBar
+                    style={{flex: 1}}
                     name="Italiano"
                     level="35%"
                     icon={<ItalyFlag/>}
@@ -37,6 +39,7 @@ export default function Languages(props) {
                 />
 
                 <SkillBar
+                    style={{flex: 1}}
                     name="Espanhol"
                     level="15%"
                     icon={<SpainFlag/>}
@@ -44,7 +47,7 @@ export default function Languages(props) {
                         width: '30px'
                     }}
                 />
-            </Heap>
+            </div>
         </Section>
     )
 }

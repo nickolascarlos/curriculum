@@ -49,7 +49,7 @@
 .attribute-with-time .attribute-head {
     display: flex;
     flex-direction: column;
-    max-width: 75%;
+    max-width: 90%;
 }
 
 .attribute-with-time .attribute-head .attribute-title {
@@ -71,6 +71,24 @@
 .attribute-with-time .attribute-time text {
     white-space: nowrap;
     margin-left: 15px;
+}
+
+.attribute-with-time > .attribute-head > .attribute-list-items {
+    color: var(--primary-color);
+    font-size: 10.5pt; 
+}
+
+.attribute-with-time > .attribute-head > .attribute-list-items > ul {
+    list-style-type: square;
+    color: #505050;
+}
+
+.attribute-with-time > .attribute-head > .attribute-list-items > ul > li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.attribute-with-time > .attribute-head > .attribute-list-items > ul > li::marker {
+    color: #000100;
 }
 
 /* */
@@ -113,12 +131,13 @@
 
 .attribute-with-image {
     display: flex;
-    align-items: center;
+    align-items: start;
 }
 
 .attribute-with-image > .attribute-image {
     width: 70px;
     border-radius: 5px;
+    margin-top: 15px;
 }
 
 .attribute-with-image > .attribute-content {

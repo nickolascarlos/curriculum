@@ -15,115 +15,122 @@ export default function OtherTools(props) {
                 /> */}
                 
                 {/* 🟦 Back-end */}
-<SkillBar
-    name=".NET"
-    style={{ padding: '0px' }}
-    icon={<i class="devicon-dot-net-plain colored" style={iconStyle}></i>}
-    labelIconDistance="7px"
-/>
+                <SkillBar
+                    name=".NET"
+                    style={{ padding: '0px' }}
+                    icon={<i class="devicon-dot-net-plain colored" style={iconStyle}></i>}
+                    labelIconDistance="7px"
+                />
 
-<SkillBar
-    name="Entity Framework"
-    style={{ padding: '0px' }}
-    icon={<i class="devicon-entityframeworkcore-plain colored" style={iconStyle}></i>}
-    labelIconDistance="7px"
-/>
+                <SkillBar
+                    name="Entity Framework"
+                    style={{ padding: '0px' }}
+                    icon={<i class="devicon-entityframeworkcore-plain colored" style={iconStyle}></i>}
+                    labelIconDistance="7px"
+                />
 
-<SkillBar
-    name="NodeJS"
-    style={{ padding: '0px' }}
-    icon={<i class="devicon-nodejs-plain colored" style={iconStyle}></i>}
-    labelIconDistance="7px"
-/>
+                <SkillBar
+                    name="NodeJS"
+                    style={{ padding: '0px' }}
+                    icon={<i class="devicon-nodejs-plain colored" style={iconStyle}></i>}
+                    labelIconDistance="7px"
+                />
 
-{/* 🟧 Front-end */}
-<SkillBar
-    name="Angular"
-    style={{ padding: '0px' }}
-    icon={<i class="devicon-angularjs-plain colored" style={iconStyle}></i>}
-    labelIconDistance="7px"
-/>
+                {/* 🟧 Front-end */}
+                <SkillBar
+                    name="Angular"
+                    style={{ padding: '0px' }}
+                    icon={<i class="devicon-angularjs-plain colored" style={iconStyle}></i>}
+                    labelIconDistance="7px"
+                />
 
-<SkillBar
-    name="React"
-    style={{ padding: '0px' }}
-    icon={<i class="devicon-react-plain colored" style={iconStyle}></i>}
-    labelIconDistance="7px"
-/>
+                <SkillBar
+                    name="React"
+                    style={{ padding: '0px' }}
+                    icon={<i class="devicon-react-plain colored" style={iconStyle}></i>}
+                    labelIconDistance="7px"
+                />
 
-<SkillBar
-    name="Ionic"
-    style={{ padding: '0px' }}
-    icon={<i class="devicon-ionic-original colored" style={iconStyle}></i>}
-    labelIconDistance="7px"
-/>
+                <SkillBar
+                    name="Ionic"
+                    style={{ padding: '0px' }}
+                    icon={<i class="devicon-ionic-original colored" style={iconStyle}></i>}
+                    labelIconDistance="7px"
+                />
 
-{/* 🟩 Banco de Dados, Cache & Mensageria */}
-<SkillBar
-    name="PostgreSQL"
-    style={{ padding: '0px' }}
-    icon={<i class="devicon-postgresql-plain colored" style={iconStyle}></i>}
-    labelIconDistance="7px"
-/>
+                {/* 🟩 Banco de Dados, Cache & Mensageria */}
+                <SkillBar
+                    name="PostgreSQL"
+                    style={{ padding: '0px' }}
+                    icon={<i class="devicon-postgresql-plain colored" style={iconStyle}></i>}
+                    labelIconDistance="7px"
+                />
 
-<SkillBar
-    name="Redis"
-    style={{ padding: '0px' }}
-    icon={<i class="devicon-redis-plain colored" style={iconStyle}></i>}
-    labelIconDistance="7px"
-/>
+                <SkillBar
+                    name="Redis"
+                    style={{ padding: '0px' }}
+                    icon={<i class="devicon-redis-plain colored" style={iconStyle}></i>}
+                    labelIconDistance="7px"
+                />
 
-<SkillBar
-    name="RabbitMQ"
-    style={{ padding: '0px' }}
-    icon={<i class="devicon-rabbitmq-plain colored" style={iconStyle}></i>}
-    labelIconDistance="7px"
-/>
+                <SkillBar
+                    name="RabbitMQ"
+                    style={{ padding: '0px' }}
+                    icon={<i class="devicon-rabbitmq-plain colored" style={iconStyle}></i>}
+                    labelIconDistance="7px"
+                />
 
-{/* 🛠️ DevOps & Infra */}
-<SkillBar
-    name="Firebase"
-    style={{ padding: '0px' }}
-    icon={<i class="devicon-firebase-plain colored" style={iconStyle}></i>}
-    labelIconDistance="7px"
-/>
+                {/* 🛠️ DevOps & Infra */}
+                <SkillBar
+                    name="Firebase"
+                    style={{ padding: '0px' }}
+                    icon={<i class="devicon-firebase-plain colored" style={iconStyle}></i>}
+                    labelIconDistance="7px"
+                />
 
-<SkillBar
-    name="Docker"
-    style={{ padding: '0px' }}
-    icon={<i class="devicon-docker-plain colored" style={iconStyle}></i>}
-    labelIconDistance="7px"
-/>
+                <SkillBar
+                    name="Docker"
+                    style={{ padding: '0px' }}
+                    icon={<i class="devicon-docker-plain colored" style={iconStyle}></i>}
+                    labelIconDistance="7px"
+                />
 
-<SkillBar
-    name="Linux"
-    style={{ padding: '0px' }}
-    icon={<i class="devicon-linux-plain colored" style={iconStyle}></i>}
-    labelIconDistance="7px"
-/>
+                <SkillBar
+                    name="Linux"
+                    style={{ padding: '0px' }}
+                    icon={<i class="devicon-linux-plain colored" style={iconStyle}></i>}
+                    labelIconDistance="7px"
+                />
 
-{/* 📝 Controle de versão */}
-<SkillBar
-    name="Git"
-    style={{ padding: '0px' }}
-    icon={<i class="devicon-git-plain colored" style={iconStyle}></i>}
-    labelIconDistance="7px"
-/>
+                {/* 📝 Controle de versão */}
+                <SkillBar
+                    name="Git"
+                    style={{ padding: '0px' }}
+                    icon={<i class="devicon-git-plain colored" style={iconStyle}></i>}
+                    labelIconDistance="7px"
+                />
 
-<SkillBar
-    name="GitHub"
-    style={{ padding: '0px' }}
-    icon={<i class="devicon-github-plain colored" style={iconStyle}></i>}
-    labelIconDistance="7px"
-/>
+                <SkillBar
+                    name="GitHub"
+                    style={{ padding: '0px' }}
+                    icon={<i class="devicon-github-plain colored" style={iconStyle}></i>}
+                    labelIconDistance="7px"
+                />
 
-{/* 💻 Ambiente de Desenvolvimento */}
-<SkillBar
-    name="Visual Studio"
-    style={{ padding: '0px' }}
-    icon={<i class="devicon-visualstudio-plain colored" style={iconStyle}></i>}
-    labelIconDistance="7px"
-/>
+                {/* 💻 Ambiente de Desenvolvimento */}
+                <SkillBar
+                    name="Visual Studio"
+                    style={{ padding: '0px' }}
+                    icon={<i class="devicon-visualstudio-plain colored" style={iconStyle}></i>}
+                    labelIconDistance="7px"
+                />
+
+                {/* <SkillBar
+                    name="DBeaver"
+                    style={{ padding: '0px' }}
+                    icon={<i class="devicon-dbeaver-plain colored" style={iconStyle}></i>}
+                    labelIconDistance="7px"
+                /> */}
 
 
                 {/* <SkillBar

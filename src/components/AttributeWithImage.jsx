@@ -10,6 +10,8 @@ export default function AttributeWithImage(props) {
                     title={props.title}
                     lines={props.lines}
                     time={props.time}
+                    listItems={props.listItems}
+                    numerate={props.numerate}
                 />
             </div>
         </div>

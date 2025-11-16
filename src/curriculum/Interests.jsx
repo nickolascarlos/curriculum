@@ -7,13 +7,11 @@ export default function Interests(props) {
         <Section title="Interesses">
             <Heap perRow={3}>
                 {[
-                     'Automação de Processos',
-                     'Criptografia',
-                     'Blockchain',
-                     'Sistemas Distribuídos',
-                     'Microcontroladores',
-                     'Processamento de Imagens',
-                     'Raspagem de Dados',
+                    'Arquitetura de sistemas distribuídos e mensageria',
+                    'Criptografia e segurança da informação',
+                    'Blockchain e tecnologias descentralizadas',
+                    'Visão computacional',
+                    'Raspagem de dados',
                 ].map(item => (
                     <BulletItem text={item}/>
                 ))}
